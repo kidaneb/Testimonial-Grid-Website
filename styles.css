@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+
+
+/* custom screen sizes */
+@theme{
+    --breakpoint-sm:480px;
+    --breakpoint-md:768px;
+    --breakpoint-lg:976px;
+    --breakpoint-xl:1440px;
+}
+/* custom font */
+@theme{
+    --font-sans:"barlow semi condensed",sans-serif; 
+}
