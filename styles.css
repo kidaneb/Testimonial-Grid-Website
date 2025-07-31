@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @custom-variant hover (&:hover);
 
-
 /* custom screen sizes */
 @theme{
     --breakpoint-sm:480px;
